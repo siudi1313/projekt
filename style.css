@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,700;1,600&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #292C34;
+
+}
+
+header {
+	background: white;
+	padding: 20px;
+}
+
+header > h1 {
+	color: #25272E;
+	text-align: center;
+	font-family: Asap, sans-serif;
+}
+
+header > h2 {
+	color: #25272E;
+	text-align: center;
+	font-family: Asap, sans-serif;
+	margin-top: 15px;
+	font-size: 10px;
+}
+
+.wyniki{
+	margin: 20px auto;
+	border: 4px solid white;
+	border-radius: 7px;
+	text-align: center;
+	width: 280px;
+	color: white;
+	font-size: 46px;
+	padding: 15px 20px;
+	font-family: Asap, sans-serif;
+	position: relative;
+}
+
+.badge {
+	background: #E2584D;
+	color: white;
+	font-size: 14px;
+	padding: 4px 20px;
+	font-family: Asap, sans-serif;
+}
+
+.badge:hover {
+	border: 7px solid white;
+	border-radius: 25%;
+}
+
+#user-label {
+	position: absolute;
+	top: 30px;
+	left: -50px;
+}
+
+#computer-label {
+	position: absolute;
+	top: 30px;
+	right: -45px;
+}
+
+
+.wynik {
+	font-size: 55px;
+	color: white;
+}
+
+.wynik > p {
+	text-align: center;
+	font-weight: bold;
+	font-family: Asap, sans-serif;
+}
+
+.wybory{
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+.wybor {
+	border: 7px solid white;
+	border-radius: 25%;
+	margin: 0 15px;
+	padding: 45px;
+	display: inline-block;
+	transition: all 0.3s ease;
+
+}
+
+.wybor:hover {
+	cursor: pointer;
+	background: #24272E;
+}
+
+#action-message {
+	text-align: center;
+	color: white;
+	font-family: Asap, sans-serif;
+	font-weight: bold;
+	font-size: 23px;
+	margin-top: 80px;
+}
+
+#stopka {
+	text-align: center;
+	color: white;
+	font-family: Asap, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	margin-top: 100px;
+}
+
+.guzik {
+	border-color: blue;
+	font-family: Asap, sans-serif;
+	font-size: 23px;
+	width: 150px;
+	border-radius: 25%;
+	padding: 10px;
+	transition: all 0.3s ease;
+	display: block; 
+	margin: 0 auto;
+	margin-top: 12px;
+}
+
+.guzik:hover {
+	cursor: pointer;
+	background: #E2584D;
+
+}
+
+#podpis {
+	color: white;
+	font-family: Asap, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	margin-top: 70px;
+	margin-left: 1500px;
+}
+
+.green-glow {
+	border: 4px solid #4dcc7d;
+	box-shadow:  0 0 10px #31b43a;
+}
+
+.red-glow {
+	border: 4px solid #fc121b;
+	box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+	border: 4px solid #464647;
+	box-shadow: 0 0 10px #25292b;
+}
+
+
