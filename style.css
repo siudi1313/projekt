@@ -121,13 +121,14 @@ header > h2 {
 .guzik {
 	border-color: blue;
 	font-family: Asap, sans-serif;
-	margin-left: 860px;
-	margin-top: 20px;
 	font-size: 23px;
 	width: 150px;
 	border-radius: 25%;
 	padding: 10px;
 	transition: all 0.3s ease;
+	display: block; 
+	margin: 0 auto;
+	margin-top: 12px;
 }
 
 .guzik:hover {
