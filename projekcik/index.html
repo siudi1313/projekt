@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Kamień papier nożyce</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+	<h1>Kamień papier nożyce</h1>       	<h2>by Siudak</h2>
+</header>
+	<div class="wyniki">
+	<div id="user-label" class="badge">Użytkownik</div>
+	<div id="computer-label" class="badge">Komputer</div>
+	<span id="user-score">0</span>:<span id="computer-score">0</span>
+	</div>
+
+	<div class="wynik">
+		<p>Wykonaj swój ruch&#10071</p>
+		
+	</div>
+
+	<div class="wybory">
+		<div class="wybor" id="k">
+			<img src="zdj/kamien.png" alt="">
+		</div>
+		<div class="wybor" id="p">
+			<img src="zdj/papier.png" alt="">
+		</div>
+		<div class="wybor" id="n">
+			<img src="zdj/nozyce.png" alt="">
+		</div>
+	</div>
+	
+	<p id="action-message">Legenda głosi, że jeśli uda Ci się wygrać 10:0, to otrzymasz ciekawą nagrodę. Powodzonka &#128526</p>
+	<p id="stopka">Jeśli chcesz zacząć od nowa, kliknij w poniższy przycisk</p>
+
+	<input class="guzik" type ="button" value="Restart" onClick="location.reload();" />
+
+	<script src="app.js" charset="utf-8"></script>
+</body>
+</html>
