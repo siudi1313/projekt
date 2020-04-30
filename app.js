@@ -27,7 +27,7 @@ function win(userChoice, computerChoice) {
 	userScore++;
 	userScore_span.innerHTML = userScore;
 	computerScore_span.innerHTML = computerScore;
-	wynik_p.innerHTML = `${convertToWord(userChoice)}${smallTyWord} wygrywa z ${convertToWord(computerChoice)}${smallKomputerWord}. Wygrana&#10071 &#129325`;
+	wynik_p.innerHTML = `Komputer wybiera ${convertToWord(computerChoice)} <br> ${convertToWord(userChoice)}${smallTyWord} wygrywa z ${convertToWord(computerChoice)}${smallKomputerWord}. Wygrana&#10071 &#129325`;
 	userChoice_div.classList.add('green-glow'); 
 	setTimeout(function() { userChoice_div.classList.remove('green-glow') }, 300);
 }
@@ -39,7 +39,7 @@ function lose(userChoice, computerChoice) {
 	computerScore++;
 	userScore_span.innerHTML = userScore;
 	computerScore_span.innerHTML = computerScore;
-	wynik_p.innerHTML = `${convertToWord(userChoice)}${smallTyWord} przegrywa z ${convertToWord(computerChoice)}${smallKomputerWord}. Przegrana &#128532`;
+	wynik_p.innerHTML = `Komputer wybiera ${convertToWord(computerChoice)} <br> ${convertToWord(userChoice)}${smallTyWord} przegrywa z ${convertToWord(computerChoice)}${smallKomputerWord}. Przegrana &#128532`;
 	userChoice_div.classList.add('red-glow'); 
 	setTimeout(function() { userChoice_div.classList.remove('red-glow') }, 300);
 	
@@ -49,7 +49,7 @@ function draw(userChoice, computerChoice) {
 	const smallTyWord = "Ty".fontsize(3).sub();
 	const smallKomputerWord = "Komputer".fontsize(3).sub();
 	const userChoice_div = document.getElementById(userChoice);
-	wynik_p.innerHTML = `${convertToWord(userChoice)}${smallTyWord} remisuje z ${convertToWord(computerChoice)}${smallKomputerWord}. Remis &#128530`;
+	wynik_p.innerHTML = ` Komputer wybiera ${convertToWord(computerChoice)} <br> ${convertToWord(userChoice)}${smallTyWord} remisuje z ${convertToWord(computerChoice)}${smallKomputerWord}. Remis &#128530`;
 	userChoice_div.classList.add('gray-glow'); 
 	setTimeout(function() { userChoice_div.classList.remove('gray-glow') }, 300);
 }
